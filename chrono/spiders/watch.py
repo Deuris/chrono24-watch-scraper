@@ -7,7 +7,7 @@ class WatchSpider(scrapy.Spider):
     name = "watch_detail_scraper"
     allowed_domains = ["chrono24.com"]
     base_url = "https://www.chrono24.com"
-    start_urls = ["https://www.chrono24.com/alangesoehne/index.htm"]
+    start_urls = ["https://www.chrono24.com/rolex/datejust--mod45.htm"]
 
     custom_settings = {
         'FEEDS': {
