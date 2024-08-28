@@ -12,3 +12,4 @@ class WatchItem(scrapy.Item):
     watch_title = scrapy.Field()
     watch_price = scrapy.Field()
     watch_details = scrapy.Field()
+    imageName = scrapy.Field()
